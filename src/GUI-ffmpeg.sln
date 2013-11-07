@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.3
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI-ffmpeg", "GUI-ffmpeg\GUI-ffmpeg.csproj", "{3757F1F3-C598-416A-A2F1-D25C36752FB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core-ffmpeg", "Core-ffmpeg\Core-ffmpeg.csproj", "{6CF04A1A-C694-4A5B-AC87-4F7840254EEE}"
+EndProject
+Project("{CFEE4113-1246-4D54-95CB-156813CB8593}") = "Setup", "Setup\Setup.wixproj", "{75A7B500-6B99-45FF-B20D-B4614AA60960}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3757F1F3-C598-416A-A2F1-D25C36752FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3757F1F3-C598-416A-A2F1-D25C36752FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3757F1F3-C598-416A-A2F1-D25C36752FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3757F1F3-C598-416A-A2F1-D25C36752FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF04A1A-C694-4A5B-AC87-4F7840254EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF04A1A-C694-4A5B-AC87-4F7840254EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF04A1A-C694-4A5B-AC87-4F7840254EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF04A1A-C694-4A5B-AC87-4F7840254EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A7B500-6B99-45FF-B20D-B4614AA60960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A7B500-6B99-45FF-B20D-B4614AA60960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A7B500-6B99-45FF-B20D-B4614AA60960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A7B500-6B99-45FF-B20D-B4614AA60960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{6CF04A1A-C694-4A5B-AC87-4F7840254EEE}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ffmpeg</RootNamespace>
+    <AssemblyName>Core-ffmpeg</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>Core-ffmpeg.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>False</DelaySign>
+    <AssemblyOriginatorKeyMode>File</AssemblyOriginatorKeyMode>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>..\..\bin\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>..\..\bin\</OutputPath>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AudioFormatAttribute.cs" />
+    <Compile Include="CommandAttribute.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="CoreException.cs" />
+    <Compile Include="Enum\ConcatMode.cs" />
+    <Compile Include="Enum\MediaFormat.cs" />
+    <Compile Include="FilterComplexBuilder.cs" />
+    <Compile Include="I18n.cs" />
+    <Compile Include="LongNameAttribute.cs" />
+    <Compile Include="CommandLineBuilder.cs" />
+    <Compile Include="CommandType.cs" />
+    <Compile Include="Enum\AudioEncoding.cs" />
+    <Compile Include="Enum\BitrateMp3.cs" />
+    <Compile Include="Enum\Overlay.cs" />
+    <Compile Include="Enum\Parameter.cs" />
+    <Compile Include="Enum\SamplingRate.cs" />
+    <Compile Include="Enum\Transpose.cs" />
+    <Compile Include="Enum\VideoEncoding.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MediaInfo.cs" />
+    <Compile Include="Resources\Images.Designer.cs">
+      <DependentUpon>Images.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Schemas\chapterType.cs" />
+    <Compile Include="Schemas\errorType.cs" />
+    <Compile Include="Schemas\frameType.cs" />
+    <Compile Include="Schemas\ffprobeType.cs" />
+    <Compile Include="Schemas\formatType.cs" />
+    <Compile Include="Schemas\libraryVersionType.cs" />
+    <Compile Include="Schemas\packetType.cs" />
+    <Compile Include="Schemas\programType.cs" />
+    <Compile Include="Schemas\programVersionType.cs" />
+    <Compile Include="Schemas\streamDispositionType.cs" />
+    <Compile Include="Schemas\streamType.cs" />
+    <Compile Include="Schemas\tagType.cs" />
+    <Compile Include="UI\ConcatSelector.cs" />
+    <Compile Include="UI\ConcatSelector.Designer.cs">
+      <DependentUpon>ConcatSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FormatSelector.cs" />
+    <Compile Include="UI\FormatSelector.Designer.cs">
+      <DependentUpon>FormatSelector.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Enum" />
+    <Folder Include="Resources" />
+    <Folder Include="UI" />
+    <Folder Include="Schemas" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="I18n.fr.resx" />
+    <EmbeddedResource Include="Resources\Images.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ConcatSelector.en.resx">
+      <DependentUpon>ConcatSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ConcatSelector.resx">
+      <DependentUpon>ConcatSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormatSelector.en.resx">
+      <DependentUpon>FormatSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FormatSelector.resx">
+      <DependentUpon>FormatSelector.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="I18n.en.resx" />
+    <None Include="Resources\ffmpeg.png" />
+    <None Include="Schemas\ffprobe.xsd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

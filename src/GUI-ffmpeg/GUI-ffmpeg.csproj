@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{3757F1F3-C598-416A-A2F1-D25C36752FB9}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ffmpeg</RootNamespace>
+    <AssemblyName>GUI-ffmpeg</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+    <ApplicationIcon>..\Images\gui-ffmpeg.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>..\..\bin\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>..\..\bin\</OutputPath>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chooser.cs" />
+    <Compile Include="Chooser.Designer.cs">
+      <DependentUpon>Chooser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditorResult.cs" />
+    <Compile Include="Execution.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="FileEncoder.cs" />
+    <Compile Include="FileEncoder.Designer.cs">
+      <DependentUpon>FileEncoder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogWindow.cs" />
+    <Compile Include="LogWindow.Designer.cs">
+      <DependentUpon>LogWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Images.Designer.cs">
+      <DependentUpon>Images.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaskEditor.cs" />
+    <Compile Include="TaskEditor.Designer.cs">
+      <DependentUpon>TaskEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VideoTask.cs" />
+    <Compile Include="TimePicker.cs" />
+    <Compile Include="TimePicker.Designer.cs">
+      <DependentUpon>TimePicker.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Chooser.en.resx">
+      <DependentUpon>Chooser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chooser.resx">
+      <DependentUpon>Chooser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileEncoder.en.resx">
+      <DependentUpon>FileEncoder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileEncoder.resx">
+      <DependentUpon>FileEncoder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogWindow.resx">
+      <DependentUpon>LogWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.en.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskEditor.en.resx">
+      <DependentUpon>TaskEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskEditor.resx">
+      <DependentUpon>TaskEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimePicker.resx">
+      <DependentUpon>TimePicker.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core-ffmpeg\Core-ffmpeg.csproj">
+      <Project>{6CF04A1A-C694-4A5B-AC87-4F7840254EEE}</Project>
+      <Name>Core-ffmpeg</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\lib\ffmpeg.exe">
+      <Link>ffmpeg.exe</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\lib\ffprobe.exe">
+      <Link>ffprobe.exe</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

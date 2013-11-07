@@ -1,0 +1,1701 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tbvbflv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 57</value>
+  </data>
+  <data name="&gt;&gt;cbOL2.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="cbOL3.Items2" xml:space="preserve">
+    <value>Bas gauche</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnOL3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbabflv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cbNoSound.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;cbOL3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Rotation</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cbReplace.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;tbsrflv.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;tbsrflv.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="tbabwebm.Text" xml:space="preserve">
+    <value>128k</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="tbabmp4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 19</value>
+  </data>
+  <data name="cbFLV.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="&gt;&gt;nudEndOffset.Name" xml:space="preserve">
+    <value>nudEndOffset</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;nudStartOffset.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="tbOL2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 53</value>
+  </data>
+  <data name="btnOL1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAsNJREFUOE+VUktI
+        VGEY/UfDVeuWIQhRCaXb2kS0qGUPe0AS+coSwx4kREpgSaJiBkGjZtAiJTBIHRVr8hlYZo6ar8lxXuo8
+        nDvOdeaqt1FP5x8XGUjQhY+Z/37nnO98578GkXxFCECIuLjDx44faUs9mLQnur6xKXZ4iCKWZRAiPi4+
+        rv/r6LAQ+9OFSLwgEg5l32obcuN/nmemkYgwpGYLsS9dJKRcK2gecOzI39gEouvAahTQfgHqKs9EVrVY
+        VCFSsoRIzjTsOpCR2/TZhg2i/6pNngleISNMcmgNCGg8813l+2FV7D6aX5x48n570qkHY/nVJjxv6kdV
+        Y0+sKht6UPb6E75MuBClC0lWON0foRjPRQ3fVXGj/N2aW9Fg9y/DMuPBwOQcBqfnYzX004O3XWN4WN+J
+        UGQNIX2L7AlTjCtdrxtURcmrD8v/Cs4ZCKPsTTd8SxEodCDJcyqdcJ08KVBU08HjnyfKhWVQIVoNc4rF
+        HUQJ1/CqGvxc3E20IwT46CbmYLuA3FNjWKoMiuAQhQZmFRTWmbEQ0uBleE6SZ5fohJjc7QJy8oq8IhkU
+        yR7uGqCL/hkF92rNcFNgjvZtJFsVOiEmp3abg7Vtk70ku2jVw4ndRN+tMcMe1OBkWpI8ucg1iMmuoUBx
+        7VYGy9xJTpZkGZK06eLEj1MKbhvNmOHl22hfkn/4gBmKZUmBm9WtMYEl2pW23Ww4SJ7mJBs7HRMKCl6Y
+        Mb2owRoExvzAiJd99jKNFMipaI4J8FPAAskyJBuBcpKVQqbxLYEpv4bpADBKsmWefeIyjN9UkffUxLlM
+        nxXkLfh4dfMM0s4XLobaORvGnfo+OHg9Trq0cq1JjrSzl/lyOCKS0krHr1a0Ry8/adUvlbbo5x+36Gms
+        c4/4v9Sknyhs1JMzjHpaZZd+tqJXP1Peq5+Wv1V90b0Xq0d/Az/ZRA5hVXHcAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnOL2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="cbSameForAll.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>707, 358</value>
+  </data>
+  <data name="&gt;&gt;tbOL4.Name" xml:space="preserve">
+    <value>tbOL4</value>
+  </data>
+  <data name="cbOL1.Items2" xml:space="preserve">
+    <value>Bas gauche</value>
+  </data>
+  <data name="btnOL2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 49</value>
+  </data>
+  <data name="cbFLV.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnOL2.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;cbOL4.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;tbvbmp4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbSameForAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbabmp4.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cbIncTime.Name" xml:space="preserve">
+    <value>cbIncTime</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="btnOL2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 27</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>333, 142</value>
+  </data>
+  <data name="&gt;&gt;cbRotate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbabmp4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 19</value>
+  </data>
+  <data name="cbReplace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 23</value>
+  </data>
+  <data name="&gt;&gt;cbOW.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbTN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbOL2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbOL3.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cbFLV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 57</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Start offset</value>
+  </data>
+  <data name="&gt;&gt;tbOL2.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;tbsrmp3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbTN.Text" xml:space="preserve">
+    <value>Générer miniature</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 99</value>
+  </data>
+  <data name="tbabmp3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;textBox9.Name" xml:space="preserve">
+    <value>textBox9</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>512, 142</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="cbMP4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="&gt;&gt;cbReplace.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Informations sur la tache</value>
+  </data>
+  <data name="&gt;&gt;nudMinWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;cbOL2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="cbJSON.Text" xml:space="preserve">
+    <value>Description json</value>
+  </data>
+  <data name="&gt;&gt;tbOL3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;nudMinWidth.Name" xml:space="preserve">
+    <value>nudMinWidth</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
+    <value>textBox4</value>
+  </data>
+  <data name="&gt;&gt;tbvbmp4.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;nudStartOffset.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cbSameForAll.Name" xml:space="preserve">
+    <value>cbSameForAll</value>
+  </data>
+  <data name="cbOW.Text" xml:space="preserve">
+    <value>Ecraser le fichier de sortie s'il existe déjà</value>
+  </data>
+  <data name="nudStartOffset.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="btnOL2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAsNJREFUOE+VUktI
+        VGEY/UfDVeuWIQhRCaXb2kS0qGUPe0AS+coSwx4kREpgSaJiBkGjZtAiJTBIHRVr8hlYZo6ar8lxXuo8
+        nDvOdeaqt1FP5x8XGUjQhY+Z/37nnO98578GkXxFCECIuLjDx44faUs9mLQnur6xKXZ4iCKWZRAiPi4+
+        rv/r6LAQ+9OFSLwgEg5l32obcuN/nmemkYgwpGYLsS9dJKRcK2gecOzI39gEouvAahTQfgHqKs9EVrVY
+        VCFSsoRIzjTsOpCR2/TZhg2i/6pNngleISNMcmgNCGg8813l+2FV7D6aX5x48n570qkHY/nVJjxv6kdV
+        Y0+sKht6UPb6E75MuBClC0lWON0foRjPRQ3fVXGj/N2aW9Fg9y/DMuPBwOQcBqfnYzX004O3XWN4WN+J
+        UGQNIX2L7AlTjCtdrxtURcmrD8v/Cs4ZCKPsTTd8SxEodCDJcyqdcJ08KVBU08HjnyfKhWVQIVoNc4rF
+        HUQJ1/CqGvxc3E20IwT46CbmYLuA3FNjWKoMiuAQhQZmFRTWmbEQ0uBleE6SZ5fohJjc7QJy8oq8IhkU
+        yR7uGqCL/hkF92rNcFNgjvZtJFsVOiEmp3abg7Vtk70ku2jVw4ndRN+tMcMe1OBkWpI8ucg1iMmuoUBx
+        7VYGy9xJTpZkGZK06eLEj1MKbhvNmOHl22hfkn/4gBmKZUmBm9WtMYEl2pW23Ww4SJ7mJBs7HRMKCl6Y
+        Mb2owRoExvzAiJd99jKNFMipaI4J8FPAAskyJBuBcpKVQqbxLYEpv4bpADBKsmWefeIyjN9UkffUxLlM
+        nxXkLfh4dfMM0s4XLobaORvGnfo+OHg9Trq0cq1JjrSzl/lyOCKS0krHr1a0Ry8/adUvlbbo5x+36Gms
+        c4/4v9Sknyhs1JMzjHpaZZd+tqJXP1Peq5+Wv1V90b0Xq0d/Az/ZRA5hVXHcAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;textBox4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnOL4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbOW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 24</value>
+  </data>
+  <data name="&gt;&gt;tbvbflv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbOL2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;textBox9.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="btnOL1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="tbsrmp3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 76</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>333, 142</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbFile.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 19</value>
+  </data>
+  <data name="&gt;&gt;cbFLV.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;tbabflv.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="cbSameForAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>375, 22</value>
+  </data>
+  <data name="tbFile.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;tbabmp3.Name" xml:space="preserve">
+    <value>tbabmp3</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tbOL3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 80</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="cbNoSound.Text" xml:space="preserve">
+    <value>Supprimer le son</value>
+  </data>
+  <data name="btnOL4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 27</value>
+  </data>
+  <data name="btnOL3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="tbsrmp3.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;cbMP4.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="cbOW.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tbabwebm.Name" xml:space="preserve">
+    <value>tbabwebm</value>
+  </data>
+  <data name="tbFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 34</value>
+  </data>
+  <data name="&gt;&gt;cbMP3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbsrmp3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;tbsrflv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbOL1.Name" xml:space="preserve">
+    <value>tbOL1</value>
+  </data>
+  <data name="tbabmp4.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="&gt;&gt;cbMP4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 29</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbIncTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 23</value>
+  </data>
+  <data name="&gt;&gt;cbOL1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tbabflv.Text" xml:space="preserve">
+    <value>128k</value>
+  </data>
+  <data name="&gt;&gt;cbNoSound.Name" xml:space="preserve">
+    <value>cbNoSound</value>
+  </data>
+  <data name="btnOL2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tbabmp4.Text" xml:space="preserve">
+    <value>128k</value>
+  </data>
+  <data name="tbOL2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 20</value>
+  </data>
+  <data name="cbPoster.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 78</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 25</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="tbabwebm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="cbOL2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 52</value>
+  </data>
+  <data name="tbvbmp4.Text" xml:space="preserve">
+    <value>5000k</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cbMP4.Name" xml:space="preserve">
+    <value>cbMP4</value>
+  </data>
+  <data name="tbsrmp3.Text" xml:space="preserve">
+    <value>44100</value>
+  </data>
+  <data name="btnOL1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnOL4.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="nudEndOffset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 104</value>
+  </data>
+  <data name="cbRotate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 21</value>
+  </data>
+  <data name="btnOL3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAsNJREFUOE+VUktI
+        VGEY/UfDVeuWIQhRCaXb2kS0qGUPe0AS+coSwx4kREpgSaJiBkGjZtAiJTBIHRVr8hlYZo6ar8lxXuo8
+        nDvOdeaqt1FP5x8XGUjQhY+Z/37nnO98578GkXxFCECIuLjDx44faUs9mLQnur6xKXZ4iCKWZRAiPi4+
+        rv/r6LAQ+9OFSLwgEg5l32obcuN/nmemkYgwpGYLsS9dJKRcK2gecOzI39gEouvAahTQfgHqKs9EVrVY
+        VCFSsoRIzjTsOpCR2/TZhg2i/6pNngleISNMcmgNCGg8813l+2FV7D6aX5x48n570qkHY/nVJjxv6kdV
+        Y0+sKht6UPb6E75MuBClC0lWON0foRjPRQ3fVXGj/N2aW9Fg9y/DMuPBwOQcBqfnYzX004O3XWN4WN+J
+        UGQNIX2L7AlTjCtdrxtURcmrD8v/Cs4ZCKPsTTd8SxEodCDJcyqdcJ08KVBU08HjnyfKhWVQIVoNc4rF
+        HUQJ1/CqGvxc3E20IwT46CbmYLuA3FNjWKoMiuAQhQZmFRTWmbEQ0uBleE6SZ5fohJjc7QJy8oq8IhkU
+        yR7uGqCL/hkF92rNcFNgjvZtJFsVOiEmp3abg7Vtk70ku2jVw4ndRN+tMcMe1OBkWpI8ucg1iMmuoUBx
+        7VYGy9xJTpZkGZK06eLEj1MKbhvNmOHl22hfkn/4gBmKZUmBm9WtMYEl2pW23Ww4SJ7mJBs7HRMKCl6Y
+        Mb2owRoExvzAiJd99jKNFMipaI4J8FPAAskyJBuBcpKVQqbxLYEpv4bpADBKsmWefeIyjN9UkffUxLlM
+        nxXkLfh4dfMM0s4XLobaORvGnfo+OHg9Trq0cq1JjrSzl/lyOCKS0krHr1a0Ry8/adUvlbbo5x+36Gms
+        c4/4v9Sknyhs1JMzjHpaZZd+tqJXP1Peq5+Wv1V90b0Xq0d/Az/ZRA5hVXHcAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="nudEndOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="cbJSON.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 23</value>
+  </data>
+  <data name="&gt;&gt;tbFile.Name" xml:space="preserve">
+    <value>tbFile</value>
+  </data>
+  <data name="&gt;&gt;tbvbwebm.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Bitrate Video</value>
+  </data>
+  <data name="&gt;&gt;tbOL3.Name" xml:space="preserve">
+    <value>tbOL3</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbSameForAll.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="nudStartOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="&gt;&gt;cbReplace.Name" xml:space="preserve">
+    <value>cbReplace</value>
+  </data>
+  <data name="cbNoSound.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="&gt;&gt;cbMP3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="nudMinHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="nudMinHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 38</value>
+  </data>
+  <data name="tbHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 47</value>
+  </data>
+  <data name="&gt;&gt;tbsrflv.Name" xml:space="preserve">
+    <value>tbsrflv</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbFLV.Text" xml:space="preserve">
+    <value>FLV1 / MP3 (flv)</value>
+  </data>
+  <data name="cbOL2.Items3" xml:space="preserve">
+    <value>Bas droite</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>883, 428</value>
+  </data>
+  <data name="&gt;&gt;tbFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 22</value>
+  </data>
+  <data name="tbOL4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 20</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;btnOL4.Name" xml:space="preserve">
+    <value>btnOL4</value>
+  </data>
+  <data name="&gt;&gt;btnOL1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbWEBM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="&gt;&gt;nudMinWidth.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;tbWidth.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;cbOL1.Name" xml:space="preserve">
+    <value>cbOL1</value>
+  </data>
+  <data name="cbOW.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 356</value>
+  </data>
+  <data name="&gt;&gt;btnOL1.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="tbabwebm.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="btnOL3.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tbHeight.Name" xml:space="preserve">
+    <value>tbHeight</value>
+  </data>
+  <data name="tbOL2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cbMP3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="tbsrmp3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="&gt;&gt;nudMinHeight.Name" xml:space="preserve">
+    <value>nudMinHeight</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="cbRotate.Items1" xml:space="preserve">
+    <value>90 Clockwise</value>
+  </data>
+  <data name="cbIncTime.Text" xml:space="preserve">
+    <value>Incruster durée sur miniature</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;tbabmp3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="tbOL4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 107</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="tbabmp3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 76</value>
+  </data>
+  <data name="&gt;&gt;tbabmp3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Fichier :</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 83</value>
+  </data>
+  <data name="&gt;&gt;btnOL2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cbMP3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 23</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 29</value>
+  </data>
+  <data name="&gt;&gt;cbJSON.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbMP4.Text" xml:space="preserve">
+    <value>H264 / AAC (mp4)</value>
+  </data>
+  <data name="cbOL3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 60</value>
+  </data>
+  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;cbOW.Name" xml:space="preserve">
+    <value>cbOW</value>
+  </data>
+  <data name="cbRotate.Items3" xml:space="preserve">
+    <value>90 Clockwise and Vertical Flip</value>
+  </data>
+  <data name="nudMinWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 38</value>
+  </data>
+  <data name="cbPoster.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 23</value>
+  </data>
+  <data name="&gt;&gt;btnOL3.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 20</value>
+  </data>
+  <data name="&gt;&gt;cbPoster.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbOL1.Items4" xml:space="preserve">
+    <value>Centré</value>
+  </data>
+  <data name="cbMP3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 76</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbWEBM.Text" xml:space="preserve">
+    <value>VP8 / Vorbis (webm)</value>
+  </data>
+  <data name="tbabmp4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="&gt;&gt;btnOL2.Name" xml:space="preserve">
+    <value>btnOL2</value>
+  </data>
+  <data name="cbWEBM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 38</value>
+  </data>
+  <data name="textBox9.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="cbOL1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Bitrate Audio</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 99</value>
+  </data>
+  <data name="tbabwebm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 38</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cbOL4.Items4" xml:space="preserve">
+    <value>Centré</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 60</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cbOL3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tbvbmp4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 19</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 20</value>
+  </data>
+  <data name="btnOL4.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tbabflv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbvbflv.Text" xml:space="preserve">
+    <value>2000k</value>
+  </data>
+  <data name="tbabmp3.Text" xml:space="preserve">
+    <value>128k</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbabmp4.Name" xml:space="preserve">
+    <value>tbabmp4</value>
+  </data>
+  <data name="&gt;&gt;tbabwebm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>883, 428</value>
+  </data>
+  <data name="&gt;&gt;cbWEBM.Name" xml:space="preserve">
+    <value>cbWEBM</value>
+  </data>
+  <data name="&gt;&gt;tbWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Redimensionnement</value>
+  </data>
+  <data name="tbsrflv.Text" xml:space="preserve">
+    <value>44100</value>
+  </data>
+  <data name="&gt;&gt;cbFLV.Name" xml:space="preserve">
+    <value>cbFLV</value>
+  </data>
+  <data name="cbMP3.Text" xml:space="preserve">
+    <value>Son uniquement (mp3)</value>
+  </data>
+  <data name="&gt;&gt;tbvbmp4.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>788, 358</value>
+  </data>
+  <data name="tbvbflv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbOL3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 20</value>
+  </data>
+  <data name="&gt;&gt;cbFLV.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="btnOL4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAsNJREFUOE+VUktI
+        VGEY/UfDVeuWIQhRCaXb2kS0qGUPe0AS+coSwx4kREpgSaJiBkGjZtAiJTBIHRVr8hlYZo6ar8lxXuo8
+        nDvOdeaqt1FP5x8XGUjQhY+Z/37nnO98578GkXxFCECIuLjDx44faUs9mLQnur6xKXZ4iCKWZRAiPi4+
+        rv/r6LAQ+9OFSLwgEg5l32obcuN/nmemkYgwpGYLsS9dJKRcK2gecOzI39gEouvAahTQfgHqKs9EVrVY
+        VCFSsoRIzjTsOpCR2/TZhg2i/6pNngleISNMcmgNCGg8813l+2FV7D6aX5x48n570qkHY/nVJjxv6kdV
+        Y0+sKht6UPb6E75MuBClC0lWON0foRjPRQ3fVXGj/N2aW9Fg9y/DMuPBwOQcBqfnYzX004O3XWN4WN+J
+        UGQNIX2L7AlTjCtdrxtURcmrD8v/Cs4ZCKPsTTd8SxEodCDJcyqdcJ08KVBU08HjnyfKhWVQIVoNc4rF
+        HUQJ1/CqGvxc3E20IwT46CbmYLuA3FNjWKoMiuAQhQZmFRTWmbEQ0uBleE6SZ5fohJjc7QJy8oq8IhkU
+        yR7uGqCL/hkF92rNcFNgjvZtJFsVOiEmp3abg7Vtk70ku2jVw4ndRN+tMcMe1OBkWpI8ucg1iMmuoUBx
+        7VYGy9xJTpZkGZK06eLEj1MKbhvNmOHl22hfkn/4gBmKZUmBm9WtMYEl2pW23Ww4SJ7mJBs7HRMKCl6Y
+        Mb2owRoExvzAiJd99jKNFMipaI4J8FPAAskyJBuBcpKVQqbxLYEpv4bpADBKsmWefeIyjN9UkffUxLlM
+        nxXkLfh4dfMM0s4XLobaORvGnfo+OHg9Trq0cq1JjrSzl/lyOCKS0krHr1a0Ry8/adUvlbbo5x+36Gms
+        c4/4v9Sknyhs1JMzjHpaZZd+tqJXP1Peq5+Wv1V90b0Xq0d/Az/ZRA5hVXHcAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tbvbflv.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnOL4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 103</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="cbTN.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnOL3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 27</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>512, 142</value>
+  </data>
+  <data name="&gt;&gt;tbvbflv.Name" xml:space="preserve">
+    <value>tbvbflv</value>
+  </data>
+  <data name="nudEndOffset.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;cbTN.Name" xml:space="preserve">
+    <value>cbTN</value>
+  </data>
+  <data name="cbOL2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="cbReplace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;nudStartOffset.Type" xml:space="preserve">
+    <value>ffmpeg.TimePicker, GUI-ffmpeg, Version=0.1.0.22603, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Valider</value>
+  </data>
+  <data name="&gt;&gt;cbOL3.Name" xml:space="preserve">
+    <value>cbOL3</value>
+  </data>
+  <data name="&gt;&gt;tbOL1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cbRotate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 104</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;nudEndOffset.Type" xml:space="preserve">
+    <value>ffmpeg.TimePicker, GUI-ffmpeg, Version=0.1.0.22603, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbOL1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 29</value>
+  </data>
+  <data name="&gt;&gt;tbabwebm.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cbPoster.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnOL1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 27</value>
+  </data>
+  <data name="&gt;&gt;cbFLV.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbOL3.Items4" xml:space="preserve">
+    <value>Centré</value>
+  </data>
+  <data name="cbOL3.Items1" xml:space="preserve">
+    <value>Haut droite</value>
+  </data>
+  <data name="cbWEBM.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cbRotate.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;cbNoSound.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="tbsrflv.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;textBox11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbSameForAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 356</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Sample Rate</value>
+  </data>
+  <data name="btnOL3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 76</value>
+  </data>
+  <data name="cbOL3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 79</value>
+  </data>
+  <data name="tbOL1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbvbwebm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbabflv.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tbvbmp4.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tbabmp4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbReplace.Text" xml:space="preserve">
+    <value>Remplacer les caractères spéciaux</value>
+  </data>
+  <data name="&gt;&gt;tbOL4.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
+  </data>
+  <data name="tbabflv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 57</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 208</value>
+  </data>
+  <data name="&gt;&gt;btnOL3.Name" xml:space="preserve">
+    <value>btnOL3</value>
+  </data>
+  <data name="tbWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;tbvbwebm.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;nudEndOffset.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="tbvbmp4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="cbOL2.Items" xml:space="preserve">
+    <value>Haut gauche</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TaskEditor</value>
+  </data>
+  <data name="&gt;&gt;cbIncTime.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="textBox11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="cbOW.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbOL1.Items1" xml:space="preserve">
+    <value>Haut droite</value>
+  </data>
+  <data name="cbRotate.Items4" xml:space="preserve">
+    <value>Aucun changement</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Formats de sortie</value>
+  </data>
+  <data name="&gt;&gt;cbMP4.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="tbvbwebm.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tbFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>851, 20</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="&gt;&gt;cbPoster.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="cbTN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 38</value>
+  </data>
+  <data name="&gt;&gt;tbHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cbOL3.Items" xml:space="preserve">
+    <value>Haut gauche</value>
+  </data>
+  <data name="nudMinWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="cbTN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 23</value>
+  </data>
+  <data name="cbOL1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbFile.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tbOL3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 18</value>
+  </data>
+  <data name="&gt;&gt;tbsrmp3.Name" xml:space="preserve">
+    <value>tbsrmp3</value>
+  </data>
+  <data name="tbWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="&gt;&gt;cbWEBM.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="textBox9.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="textBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 19</value>
+  </data>
+  <data name="nudMinWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="tbabmp3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="&gt;&gt;cbIncTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbJSON.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="nudStartOffset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 47</value>
+  </data>
+  <data name="cbJSON.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 58</value>
+  </data>
+  <data name="&gt;&gt;cbOL3.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;cbOW.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbsrflv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="&gt;&gt;btnOL1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cbOL1.Items" xml:space="preserve">
+    <value>Haut gauche</value>
+  </data>
+  <data name="&gt;&gt;cbOL2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tbvbwebm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tbOL3.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;tbWidth.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 76</value>
+  </data>
+  <data name="&gt;&gt;tbFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbOL4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="cbOL4.Items1" xml:space="preserve">
+    <value>Haut droite</value>
+  </data>
+  <data name="textBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cbPoster.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nudEndOffset.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;nudMinWidth.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbWEBM.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;cbSameForAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbIncTime.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tbHeight.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 40</value>
+  </data>
+  <data name="&gt;&gt;cbPoster.Name" xml:space="preserve">
+    <value>cbPoster</value>
+  </data>
+  <data name="btnOL1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 22</value>
+  </data>
+  <data name="&gt;&gt;tbOL4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cbWEBM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbJSON.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbOL4.Items2" xml:space="preserve">
+    <value>Bas gauche</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Transformation</value>
+  </data>
+  <data name="&gt;&gt;cbTN.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="tbsrflv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 57</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 49</value>
+  </data>
+  <data name="&gt;&gt;btnOL3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>End offset</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 19</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Overlay</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbOL4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="cbSameForAll.Text" xml:space="preserve">
+    <value>Utiliser les mêmes paramètres pour les entrées suivantes</value>
+  </data>
+  <data name="&gt;&gt;cbRotate.Name" xml:space="preserve">
+    <value>cbRotate</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;textBox11.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="cbOL3.Items3" xml:space="preserve">
+    <value>Bas droite</value>
+  </data>
+  <data name="&gt;&gt;nudMinHeight.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textBox11.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbOL4.Items3" xml:space="preserve">
+    <value>Bas droite</value>
+  </data>
+  <data name="&gt;&gt;tbOL1.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;tbabwebm.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;cbNoSound.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbMP4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnOL1.Name" xml:space="preserve">
+    <value>btnOL1</value>
+  </data>
+  <data name="cbNoSound.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 113</value>
+  </data>
+  <data name="&gt;&gt;cbOW.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 83</value>
+  </data>
+  <data name="cbOL2.Items1" xml:space="preserve">
+    <value>Haut droite</value>
+  </data>
+  <data name="&gt;&gt;btnOL2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tbOL1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 26</value>
+  </data>
+  <data name="tbvbwebm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 38</value>
+  </data>
+  <data name="&gt;&gt;tbOL1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbTN.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbOL2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="textBox4.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tbabflv.Name" xml:space="preserve">
+    <value>tbabflv</value>
+  </data>
+  <data name="&gt;&gt;nudMinHeight.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;tbOL4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbOL4.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="cbRotate.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;textBox11.Name" xml:space="preserve">
+    <value>textBox11</value>
+  </data>
+  <data name="&gt;&gt;cbNoSound.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbOL2.Items2" xml:space="preserve">
+    <value>Bas gauche</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 208</value>
+  </data>
+  <data name="&gt;&gt;tbsrmp3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="cbOL1.Items3" xml:space="preserve">
+    <value>Bas droite</value>
+  </data>
+  <data name="cbIncTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 98</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;cbJSON.Name" xml:space="preserve">
+    <value>cbJSON</value>
+  </data>
+  <data name="&gt;&gt;btnOL4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbOL2.Name" xml:space="preserve">
+    <value>tbOL2</value>
+  </data>
+  <data name="tbWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cbOL4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbMP3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="cbOL3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="&gt;&gt;cbIncTime.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;cbRotate.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tbWidth.Name" xml:space="preserve">
+    <value>tbWidth</value>
+  </data>
+  <data name="&gt;&gt;nudMinHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 99</value>
+  </data>
+  <data name="&gt;&gt;cbReplace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbOL4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="&gt;&gt;tbHeight.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbRotate.Items2" xml:space="preserve">
+    <value>90 CounterClockwise</value>
+  </data>
+  <data name="cbOL4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 106</value>
+  </data>
+  <data name="&gt;&gt;textBox11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbOL1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbJSON.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cbOL4.Name" xml:space="preserve">
+    <value>cbOL4</value>
+  </data>
+  <data name="&gt;&gt;cbMP3.Name" xml:space="preserve">
+    <value>cbMP3</value>
+  </data>
+  <data name="tbOL1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 20</value>
+  </data>
+  <data name="cbPoster.Text" xml:space="preserve">
+    <value>Générer poster</value>
+  </data>
+  <data name="&gt;&gt;tbvbflv.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbvbflv.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="textBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 38</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;tbabmp3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cbRotate.Items" xml:space="preserve">
+    <value>90 CounterCLockwise and Vertical Flip</value>
+  </data>
+  <data name="&gt;&gt;cbReplace.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tbvbmp4.Name" xml:space="preserve">
+    <value>tbvbmp4</value>
+  </data>
+  <data name="nudMinHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>875, 394</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tbabflv.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="tbHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="cbOL2.Items4" xml:space="preserve">
+    <value>Centré</value>
+  </data>
+  <data name="&gt;&gt;tbvbwebm.Name" xml:space="preserve">
+    <value>tbvbwebm</value>
+  </data>
+  <data name="&gt;&gt;nudStartOffset.Name" xml:space="preserve">
+    <value>nudStartOffset</value>
+  </data>
+  <data name="tbvbwebm.Text" xml:space="preserve">
+    <value>5000k</value>
+  </data>
+  <data name="textBox11.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;btnOL4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cbOL1.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="cbMP4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="cbOL4.Items" xml:space="preserve">
+    <value>Haut gauche</value>
+  </data>
+  <data name="&gt;&gt;cbOL2.Name" xml:space="preserve">
+    <value>cbOL2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

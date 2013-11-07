@@ -1,0 +1,67 @@
+﻿<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Fragment>
+		<DirectoryRef Id="TARGETDIR">
+			<Directory Id="ProgramFilesFolder" Name="PFiles">
+				<Directory Id="INSTALLDIR" Name="GUI ffmpeg">
+					<Directory Id="DOC" Name="doc">
+						<Directory Id="READMERESDIR" Name="readme">
+							<Component Id="READMERES" Guid="DB0F915E-B9D2-4546-9B91-913FFCECE5F2" DiskId="1">
+								<File Id="addentry.png" Name="addentry.png" Source="..\..\doc\readme\addentry.png" />
+								<File Id="concat.png" Name="concat.png" Source="..\..\doc\readme\concat.png" />
+								<File Id="format.png" Name="format.png" Source="..\..\doc\readme\format.png" />
+								<File Id="gui.png" Name="gui.png" Source="..\..\doc\readme\gui.png" />
+								<File Id="main.css" Name="main.css" Source="..\..\doc\readme\main.css" />
+								<File Id="main.png" Name="main.png" Source="..\..\doc\readme\main.png" />
+							</Component>
+						</Directory>
+					</Directory>
+					<Directory Id="SRC" Name="src" />
+					<Directory Id="BIN" Name="bin">
+						<Directory Id="res_en" Name="en">
+							<Component Id="Resources_en" Guid="B6029F50-6F18-431F-B917-936B553789F3" DiskId="1">
+								<File Id="Core_ffmpeg.resources.dll" Name="Core-ffmpeg.resources.dll" Source="..\..\bin\en\Core-ffmpeg.resources.dll" KeyPath="yes" Vital="yes" />
+							</Component>
+						</Directory>
+						<Directory Id="res_fr" Name="fr">
+							<Component Id="Resources_fr" Guid="153B4758-9CFB-4BAE-A4F8-944E26EE007E" DiskId="1">
+								<File Id="fr.Core_ffmpeg.resources.dll" Name="Core-ffmpeg.resources.dll" Source="..\..\bin\fr\Core-ffmpeg.resources.dll" KeyPath="yes" Vital="yes" />
+							</Component>
+						</Directory>
+						<Component Id="Principal" Guid="4BA240F7-06F2-4F6E-84BE-110FA7E20311" DiskId="1">
+							<File Id="GUI_ffmpeg.exe" Name="GUI-ffmpeg.exe" Source="..\..\bin\GUI-ffmpeg.exe" Vital="yes" KeyPath="yes"></File>
+							<File Id="Core_ffmpeg.dll" Name="Core-ffmpeg.dll" Source="..\..\bin\Core-ffmpeg.dll" Vital="yes" />
+							<File Id="gui_ffmpeg.ico" Name="gui-ffmpeg.ico" Source="..\Images\gui-ffmpeg.ico" />
+							<File Id="ffmpeg.exe" Name="ffmpeg.exe" Source="..\..\bin\ffmpeg.exe" Vital="yes" />
+							<File Id="ffprobe.exe" Name="ffprobe.exe" Source="..\..\bin\ffprobe.exe" Vital="yes" />
+							<?if $(var.Configuration) = Debug?>
+							<File Id="GUI_ffmpeg.pdb" Name="GUI-ffmpeg.pdb" Source="..\..\bin\GUI-ffmpeg.pdb" />
+							<File Id="Core_ffmpeg.pdb" Name="Core-ffmpeg.pdb" Source="..\..\bin\Core-ffmpeg.pdb" />
+							<?endif ?>
+						</Component>
+					</Directory>
+					<Component Id="LICENSEFILE" Guid="D2E14A8C-D6FB-4EFB-8694-02C8A83D7FF1" DiskId="1">
+						<File Id="license.rtf" Name="LICENSE.rtf" Source="license.rtf" KeyPath="yes" />
+					</Component>
+					<Component Id="READMEFILE" Guid="0FE2CF34-21B9-4F98-996C-5F0981A125B4" DiskId="1">
+						<File Id="README.html" Name="README.html" Source="..\..\README.html" KeyPath="yes" />
+					</Component>
+				</Directory>
+			</Directory>
+			<Directory Id="DesktopFolder" Name="DesktopFolder">
+				<Component Id="DesktopShortcut" Guid="6B785A62-062F-4331-B06D-E8DCFFDC1501">
+					<Shortcut Id="SC_DSK_GUI_FFMPEG" Name="GUI-ffmpeg" Description="Lancer GUI-ffmpeg" Target="[INSTALLDIR]bin\GUI-ffmpeg.exe" WorkingDirectory="INSTALLDIR" />
+					<RegistryValue Name="DesktopShortcut" Key="Software\GUI-ffmpeg" KeyPath="yes" Root="HKCU" Type="integer" Value="1" />
+				</Component>
+			</Directory>
+			<Directory Id="ProgramMenuFolder" Name="STARTMENU">
+				<Directory Id="ProgramMenuSubfolder" Name="GUI-ffmpeg">
+					<Component Id="StartMenuShortcut" Guid="81B327FC-BD5E-4E5C-96B8-9B1989A4E6E8">
+						<Shortcut Id="SC_SM_GUI_FFMPEG" Name="GUI-ffmpeg" Description="Lancer GUI-ffmpeg" Target="[INSTALLDIR]bin\GUI-ffmpeg.exe" WorkingDirectory="INSTALLDIR" />
+						<RegistryValue Name="StartMenuShortcut" Key="Software\GUI-ffmpeg" KeyPath="yes" Root="HKCU" Type="integer" Value="1" />
+						<RemoveFolder Id="ProgramMenuSubfolder" On="uninstall" />
+					</Component>
+				</Directory>
+			</Directory>
+		</DirectoryRef>
+	</Fragment>
+</Wix>

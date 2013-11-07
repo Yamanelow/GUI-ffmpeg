@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<?define ProductVersion = "0.1.0.0"?>
+<?define ProductUpgradeCode = "BA40FEEF-D4D1-4187-A5BF-41F2323B459A"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="GUI ffmpeg" Language="1033" Version="$(var.ProductVersion)" UpgradeCode="$(var.ProductUpgradeCode)" Manufacturer="Yamanelow">
+		<Package Description="Interface graphique ffmpeg" Comments="Comments" InstallerVersion="200" Compressed="yes" />
+		<!--
+			Source media for the installation. 
+ 			Specifies a single cab file to be embedded in the installer's .msi. 
+		-->
+		<Media Id="1" Cabinet="contents.cab" EmbedCab="yes" CompressionLevel="high" />
+		
+		<!-- Upgrades -->
+		<Upgrade Id="$(var.ProductUpgradeCode)">
+			<UpgradeVersion Minimum="$(var.ProductVersion)" OnlyDetect="yes" Property="NEWERVERSIONDETECTED"/>
+			<UpgradeVersion Minimum="0.0.0" Maximum="$(var.ProductVersion)" IncludeMinimum="yes" IncludeMaximum="no" Property="OLDERVERSIONBEINGUPGRADED"/>	  
+		</Upgrade>
+		<Condition Message="A newer version of this software is already installed.">NOT NEWERVERSIONDETECTED</Condition>
+		
+		<!-- Remove App Panel options -->
+		<Icon Id="ProductIcon" SourceFile="..\Images\gui-ffmpeg.ico" />
+		<Property Id="ARPPRODUCTICON" Value="ProductIcon" />
+		<Property Id="ARPHELPLINK" Value="http://yamanelow.pando.fr/gui-ffmpeg" />
+		<Property Id="ARPURLINFOABOUT" Value="http://yamanelow.pando.fr/gui-ffmpeg" />
+		<Property Id="ARPNOREPAIR" Value="1"/>
+		<!--<Property Id="ARPNOMODIFY" Value="1"/>-->
+		
+		<!-- Framework 4 check -->
+		<PropertyRef Id="NETFRAMEWORK40CLIENT" />
+		<Condition Message='Le Framework .NET 4.0 doit être installé.'>
+			<![CDATA[Installed OR (NETFRAMEWORK40CLIENT AND NETFRAMEWORK40CLIENT = "#1")]]>
+		</Condition>
+		
+		<!-- Installation directory and files are defined in Files.wxs -->
+		<Directory Id="TARGETDIR" Name="SourceDir" />
+		<Feature Id="Complete" Title="GUI ffmpeg" Description="Interface graphique pour ffmpeg" Level="1">
+			<ComponentRef Id="Principal" />
+			<ComponentRef Id="Resources_en" />
+			<ComponentRef Id="Resources_fr" />
+			<ComponentRef Id="READMERES" />
+			<ComponentRef Id="LICENSEFILE" />
+			<ComponentRef Id="READMEFILE" />
+			<ComponentRef Id="StartMenuShortcut" />
+			<ComponentRef Id="DesktopShortcut" />
+		</Feature>
+		
+		<!-- Open README at the end of install -->
+		<Property Id="Naviguateur">explorer.exe</Property>
+		<CustomAction Id="LaunchReadme" Property="Naviguateur" ExeCommand="[INSTALLDIR]README.html" Return="asyncNoWait" />
+		<InstallExecuteSequence>
+			<Custom Action="LaunchReadme" After="InstallFinalize">NOT Installed</Custom>
+			<RemoveExistingProducts After="InstallInitialize" />
+		</InstallExecuteSequence>
+		
+		<!-- WIX -->
+		<Property Id="WIXUI_INSTALLDIR">INSTALLDIR</Property>
+		<UIRef Id="WixUI_InstallDir" />
+	</Product>
+</Wix>

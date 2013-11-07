@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="doc/readme/main.css" />
+	</head>
+	<body>
+		<center><h2>GUI ffmpeg</h2></center>
+
+		<h3>Pr&eacute;sentation</h3>
+
+		<p>Petit logiciel perso &agrave; tout faire, il permet de faire plusieurs
+		choses telle que la conversion entre diff&eacute;rents formats de m&eacute;dia, la
+		concat&eacute;nation, r&eacute;encodage, extraction de son, etc.</p>
+
+		<p>Il utilise &agrave; la base le logiciel <a href="http://ffmpeg.org" target="_blank">ffmpeg</a> qui est tr&egrave;s r&eacute;put&eacute; pour tout ce qui est
+		manipulation de vid&eacute;o/audio. Malheureusement, ffmpeg n'&eacute;tant qu'en
+		ligne de commande il est assez repoussant, m&ecirc;me si beaucoup
+		d'interfaces graphiques sont d&eacute;velopp&eacute;es par des passionn&eacute;s.</p>
+
+		<p>Voici les diff&eacute;rentes fonction propos&eacute;es actuellement par cette
+		interface.<br>
+		</p>
+
+		<h3>Lancement</h3>
+
+		Lors du lancement de l'application cette fen&ecirc;tre aparaitra<br>
+
+		<br>
+
+		<img style="width: 439px; height: 190px;" alt="Ecran Principal" src="doc/readme/main.png"><br>
+
+		<br>
+
+		Pour utiliser une des 5 fonctions pr&eacute;sentes, il vous suffit de cliquer
+		sur le boutton correspondant.<br>
+
+		Vous pouvez &eacute;galement s&eacute;lectionner vos fichier et les faire glisser sur
+		le boutton, cela lancera la fonction avec vous fichiers en question en
+		tant que source pour les op&eacute;rations.<br>
+
+		<br>
+
+		<h3>Suppression du son</h3>
+		Cette fonction sert &agrave; supprimer tout simplement le flux audio d'une de vos vid&eacute;o.<br>
+		Ici le codec vid&eacute;o restera inchang&eacute; et l'entregistrement se fera dans
+		un nouveau fichier portant obligatoirement la m&ecirc;me extension que la
+		source.<br>
+		<h3>Extraction de mp3</h3>
+		Ici on r&eacute;cup&egrave;rera le son du fichier source qui sera r&eacute;encod&eacute; au format mp3 de qualit&eacute; CD.<br>
+		Si la source est une vid&eacute;o, on ne gardera que le son. Si la source est
+		un fichier audio (ogg, wav ou autre) un simple r&eacute;encodage sera effectu&eacute;.<br>
+		Si la source est un mp3, il sera quand m&ecirc;me r&eacute;encod&eacute;. Attention aux pertes de qualit&eacute; dans ce cas.<br>
+
+		<h3>Concat&eacute;nation de m&eacute;dia</h3>
+		Partie un peu plus compexe. Ici le but est de mettre bout &agrave; bout 2 ou 3 fichiers m&eacute;dia.<br>
+		<br>
+		<img style="width: 582px; height: 388px;" alt="Concatenation" src="doc/readme/concat.png"><br>
+		<br>
+		Pour que cela soit possible il faut remplir plusieurs conditions :<br>
+		<ol>
+		  <li>Les sources doivent &ecirc;tre du m&ecirc;me type, c'est &agrave; dire &quot;audio + audio&quot;, &quot;vid&eacute;o + vid&eacute;o&quot; ou bien &quot;audio/vid&eacute;o + audio/vid&eacute;o&quot;</li>
+		  <li>Si de la vid&eacute;o doit &ecirc;tre utilis&eacute;e, la r&eacute;solution doit &ecirc;tre identique sinon ce n'est pas r&eacute;alisable</li>
+		  <li>Le r&eacute;encodage est obligatoire, les formats pourront &ecirc;tre choisis une fois les fichiers d&eacute;finis</li>
+		</ol>
+		Le mode de concat&eacute;nation utilis&eacute; (mentionn&eacute; dans le 1.) est toujours d&eacute;fini par le 1er fichier.<br>
+		Ce mode est indiqu&eacute; en bas &agrave; gauche de la fen&ecirc;tre dans le texte en rouge.<br>
+		Les d&eacute;tails des diff&eacute;rents m&eacute;dias sont indiqu&eacute;s en dessous de chaque fichier.<br>
+		<br>
+		Si vous avez d&eacute;plac&eacute; un fichier sur le boutton au choix de d&eacute;part, le
+		1er fichier ne sera pas modifiable et servira de base d&eacute;finitive.<br>
+		<br>
+		Une fois vos fichiers s&eacute;lectionn&eacute;s, validez et vous tomberez sur la fen&ecirc;tre des formats/codecs.<br>
+		<br>
+		<img style="width: 636px; height: 288px;" alt="Formats" src="doc/readme/format.png"><br>
+		<br>
+		Ici &agrave; vous de choisir 3 choses :<br>
+		<ol>
+		  <li>Le format du conteneur (mp4, avi, webm, etc)</li>
+		  <li>Le codec vid&eacute;o (h264, vorbis, etc)</li>
+		  <li>Le codec audio (mp3, wav, etc)</li>
+		</ol>
+		A noter que que suivant si vous n'avez qu'une piste audio ou vid&eacute;o ou les deux, les choix seront diff&eacute;rents et/ou gris&eacute;s.<br>
+		<span style="color: red;">Attention</span> : les param&egrave;tres &agrave; rentrer
+		ici influent &eacute;norm&eacute;ment sur la qualit&eacute; de sortie, surtout pour la
+		vid&eacute;o. Pour ne pas trop d&eacute;grader votre sortie vid&eacute;o r&eacute;f&eacute;rez vous au
+		bitrate indiqu&eacute; pour les fichiers source dans la fen&ecirc;tre pr&eacute;c&eacute;dente. Si
+		les champs ne sont pas remplis, la qualit&eacute; sera celle par d&eacute;faut de
+		ffmpeg, et donc tr&egrave;s moyenne. Remplissez au moins le champ Bitrate pour
+		la vid&eacute;o, les autres param&egrave;tres sont r&eacute;serv&eacute;s &agrave; une utilisation plus
+		pr&eacute;cise.<br>
+		<span style="color: red;">Attention</span> : Certains codecs ne sont
+		pas compatibles avec certains conteneurs. les plus classiques sont Mp4
+		(h264 + AAC), WebM (On2 VP8 + Vorbis) et Flv (Flv video + mp3).<br>
+		<br>
+		Une fois valid&eacute;, il ne reste plus qu'&agrave; enregistrer votre fichier de
+		sortie ... et &agrave; patienter car suivant les formats et les dur&eacute;es des
+		sources, vous pouvez en avoir pour un moment :)<br>
+		<h3>GUI (interface graphique)</h3>
+		L'interface graphique sert &agrave; traiter des fichiers uniques ou par lot. Il est possible de :<br>
+		<ul>
+		  <li>Redimensioner les vid&eacute;os</li>
+		  <li>R&eacute;encoder</li>
+		  <li>Appliquer une rotation</li>
+		  <li>Extraire des miniatures</li>
+		  <li>Appliquer des filigranes (images ou vid&eacute;o)</li>
+		  <li>Tronquer les vid&eacute;os</li>
+		</ul>
+		L'avantage ici est de pouvoir lancer le traitement de plusieurs fichiers sans avoir besoin d'intervenir une fois lanc&eacute;<br>
+		Pour ajouter des fichiers &agrave; traiter, soit vous les s&eacute;lectionnez puis d&eacute;placer dans la liste en partie haute de la fen&ecirc;tre, soit vous cliquez droit sur la liste puis Ajoutez via le menu contextuel qui aparait.<br>
+		A ce moment l&agrave; vous pourrez parametrer l'action &agrave; efectuer.<br>
+		<br>
+		<img alt="Formats" src="doc/readme/addentry.png"><br>
+		<br>
+		<strong>Format de sortie :</strong><br>
+		Ici on parametre les formats de r&eacute;encodage. On retrouve les formats classiques uniquement pour le moment.<br>
+		A savoir que si vous voulez travailler votre vid&eacute;o, il est obigatoire de choisir un format minimum, sinon rien ne sera effectu&eacute;.<br>
+		<br>
+		<strong>Transformation :</strong><br>
+		On peut indiquer une r&eacute;solution de vid&eacute;o voulue largeur x hauteur. Si on ne rempli pas un des deux (ou -1 &agrave; la place), la dimension sera faite proportionnellement.<br>
+		Le parametre de rotation s'effectue ici aussi.<br>
+		On peut sp&eacute;cifier un temps de d&eacute;part et de fin pour tronquer une vid&eacute;o. Laisser &agrave; 00:00:00.000 veut dire que ce n'est pas utilis&eacute;.<br>
+		<br>
+		<strong>Options :</strong><br>
+		<ul>
+			<li>Remplacer les caract&egrave;res sp&eacute;ciaux : supprime certains caract&egrave;res du nom des fichiers de sortie (utilisation personnelle)</li>
+			<li>G&eacute;n&eacute;rer miniature : cr&eacute;&eacute; un miniature correspondant au d&eacute;but de la vid&eacute;o et de la taille indiqu&eacute;e</li>
+			<li>Description JSON : utilisation personnelle, ca ne vous servira &agrave; rien</li>
+			<li>G&eacute;n&eacute;rer poster : g&eacute;n&egrave;re une image de taille identique &agrave; la vid&eacute;o pour la 1&egrave;re seconde</li>
+			<li>Incruster dur&eacute;e sur miniature : assez explicite je trouve</li>
+		</ul>
+		<strong>Overlay :</strong><br>
+		Avec ces options vous pouvez ajouter des images ou m&ecirc;me des vid&eacute;os par dessus la vid&eacute;o principale. Si votre image est un PNG avec transparence, elle sera conserv&eacute;e lors de l'application sur la vid&eacute;o.<br>
+		Vous pouvez donc utiliser ces options pour mettre un cache sur les dialogues où bien incruster une autre vid&eacute;o un peu plus petite dans un coin.<br>
+		<br>
+		<strong>Divers :</strong><br>
+		Si vous cochez la case &quot;Ecraser le fichier de sortie ...&quot;, et bien vous devinez ! Par contre si elle n'est pas coch&eacute;e, ffmpeg annulera la tache sans pr&eacute;avis.<br>
+		Si vous cochez la case &quot;Utiliser les m&ecirc;mes parametres ...&quot;, tous les fichiers que vous avez glisser-d&eacute;poser dans la fen&ecirc;tre seront trait&eacute;s de la mâme mani&egrave;re que celui que vous configurez, m&ecirc;mes overlays, m&ecirc;mes encodages, etc.<br>
+		<span style="color: red;">Attention</span> : Tous les fichiers r&eacute;encod&eacute;s seront de la forme <strong>_enc_ + [nom de l'original] + [extension]</strong>. L'extension d&eacute;pendra du format de sortie.<br>
+
+		<h3>Encoder</h3>
+		R&eacute;encodage simple d'un fichier<br>
+		
+		<h3>Conclusion</h3>
+		Ce logiciel est encore en d&eacute;veloppement, Merci de me raporter les bugs.<br>
+	</body>
+</html>
