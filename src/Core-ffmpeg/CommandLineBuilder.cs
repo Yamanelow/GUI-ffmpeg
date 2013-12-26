@@ -28,6 +28,7 @@ namespace ffmpeg {
 		#endregion
 		
 		#region Var & Properties
+		private bool _filterMarked;
 		private List<Tuple<Parameter, string>> _actions = new List<Tuple<Parameter, string>>();
 		
 		public VideoEncoding VideoEncoding { get; private set; }
@@ -37,6 +38,9 @@ namespace ffmpeg {
 		
 		#region Mark Filter complex position at 1st use
 		internal void MarkFilterPosition() {
+			if(_filterMarked)
+				return;
+			_filterMarked = true;
 			_actions.Add(Tuple.Create(Parameter.MISC_FILTER_COMPLEX, string.Empty));
 		}
 		#endregion
