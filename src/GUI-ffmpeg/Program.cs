@@ -58,7 +58,7 @@ namespace ffmpeg {
 						Execution.Gui(files);
 						return;
 					default:
-						Application.Run(new Chooser());
+						Execution.Gui(args, true);
 						return;
 				}
 			}

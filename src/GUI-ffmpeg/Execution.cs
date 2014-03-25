@@ -250,8 +250,26 @@ namespace ffmpeg {
 		public static void Gui() {
 			(new MainForm()).ShowDialog();
 		}
-		public static void Gui(IList<string> files) {
-			(new MainForm(files)).ShowDialog();
+		public static void Gui(IList<string> files, bool transform = false) {
+			if(transform) {
+				List<VideoTask> tasks = new List<VideoTask>();
+				foreach(string file in files) {
+					if(!File.Exists(file))
+						continue;
+					VideoTask task = new VideoTask() {
+						FileFullPath = file,
+						LengthOnTn = true,
+						MP4 = true,
+						MP4_ba = "128k",
+						MP4_bv = "5000k",
+						Overwrite = true
+					};
+					tasks.Add(task);
+				}
+				(new MainForm(tasks)).ShowDialog();
+			} else {
+				(new MainForm(files)).ShowDialog();
+			}
 		}
 		#endregion
 		

@@ -35,13 +35,24 @@ namespace ffmpeg {
 			UnlockUI();
 			_autoLoadFiles = files;
 		}
+		
+		public MainForm(IList<VideoTask> tasks) {
+			InitializeComponent();
+			UnlockUI();
+			_autoLoadTasks = tasks;
+		}
 		#endregion
 		
 		#region Form loaded
 		private void Loaded(object sender, EventArgs e) {
-			if(_autoLoadFiles != null)
+			if(_autoLoadFiles != null) {
 				AddItems(_autoLoadFiles);
-			_autoLoadFiles = null;
+				_autoLoadFiles = null;
+			}
+			if(_autoLoadTasks != null) {
+				AddTasks(_autoLoadTasks);
+				_autoLoadTasks = null;
+			}
 		}
 		#endregion
 		
@@ -52,6 +63,7 @@ namespace ffmpeg {
 		
 		private static readonly string[] _allowedExtensions = new string[] { ".avi", ".mp4", ".webm", ".3gp", ".mov" };
 		private IList<string> _autoLoadFiles = null;
+		private IList<VideoTask> _autoLoadTasks = null;
 		[DllImport("user32.dll", CharSet = CharSet.Auto)]
 		private static extern int SendMessage(IntPtr hWnd, int wMsg, IntPtr wParam, IntPtr lParam);
 		
@@ -216,6 +228,15 @@ namespace ffmpeg {
 				if(i == ListBox.NoMatches)
 					return;
 				LB.SelectedIndex = i;
+			}
+		}
+		#endregion
+		
+		#region Add tasks to task list
+		private void AddTasks(IList<VideoTask> tasks) {
+			foreach(VideoTask task in tasks) {
+				LB.Items.Add(task.FileFullPath);
+				Tasks.Add(task);
 			}
 		}
 		#endregion
